@@ -38,10 +38,6 @@ Sandstone Microstructure (Semantic Segmentation)/
   README.md
 ```
 
-```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
-./download_kaggle_split.ps1
-```
 
 By default, the script writes paired image and mask files to:
 
