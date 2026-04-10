@@ -12,8 +12,6 @@ This project focuses on semantic segmentation workflows for sandstone microstruc
 - `Data/Test/sources_test.csv`: mapping file for selected testing samples
 - `code.ipynb`: notebook for experimentation and model development
 - `RF_MODEL.pickle`: saved model artifact
-- `download_kaggle_split.ps1`: downloads and prepares a train/test split from Kaggle
-- `download_wikimedia_dataset.ps1`: helper script for Wikimedia-based image download
 
 ## Dataset Source
 
@@ -36,8 +34,7 @@ Sandstone Microstructure (Semantic Segmentation)/
       sources_test.csv
   code.ipynb
   RF_MODEL.pickle
-  download_kaggle_split.ps1
-  download_wikimedia_dataset.ps1
+
   README.md
 ```
 
@@ -50,4 +47,3 @@ By default, the script writes paired image and mask files to:
 
 - `Data/Train/images` and `Data/Train/masks`
 - `Data/Test/images` and `Data/Test/masks`
-
